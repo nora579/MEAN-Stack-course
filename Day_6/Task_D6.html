@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NTI Mini Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>NTI Mini Store</h1>
+        <div id="message"></div>
+        <div class="form-container">
+            <h2 id="formTitle">Add Product</h2>
+            <div class="form-grid">
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Product Name"
+                >
+                <input
+                    type="number"
+                    id="price"
+                    placeholder="Price"
+                >
+                <input
+                    type="text"
+                    id="category"
+                    placeholder="Category"
+                >
+                <input
+                    type="number"
+                    id="quantity"
+                    placeholder="Quantity"
+                >
+            </div>
+            <div class="buttons">
+                <button id="addBtn">
+                    Add Product
+                </button>
+                <button id="updateBtn" disabled>
+                    Update Product
+                </button>
+                <button id="cancelBtn" class="cancel-btn">
+                    Cancel
+                </button>
+            </div>
+        </div>
+
+
+        <div class="search-container">
+            <input
+                type="text"
+                id="search"
+                placeholder="Search by name or category..."
+            >
+        </div>
+
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Quantity</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="productsBody">
+                    <!-- Products appear here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+
+    <script src="Task_D6.js"></script>
+
+</body>
+
+</html>
