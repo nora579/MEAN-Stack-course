@@ -1,0 +1,10 @@
+.active{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar {
+  background-color: #f6ecd8;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

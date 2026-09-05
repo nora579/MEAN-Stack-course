@@ -1,0 +1,16 @@
+.notfound-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #faf7f0;
+    padding: 20px;
+}
+
+h1{
+    text-align: center; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 70px;
+}

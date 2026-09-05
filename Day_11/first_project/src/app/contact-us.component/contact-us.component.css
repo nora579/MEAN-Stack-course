@@ -1,0 +1,24 @@
+.contact-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #faf7f0;
+    padding: 20px;
+}
+
+.contact-content {
+    max-width: 700px;
+}
+
+.contact-content h1 {
+    color: #3e2723;
+    margin-bottom: 25px;
+}
+
+.contact-content p {
+    color: #5d4037;
+    font-size: 18px;
+    line-height: 1.6;
+}
