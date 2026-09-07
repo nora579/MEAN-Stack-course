@@ -1,0 +1,55 @@
+.educational-page {
+    min-height: 100vh;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #faf7f0;
+}
+
+.educational-page h1 {
+    color: #3e2723;
+    margin-bottom: 15px;
+}
+
+.educational-page > p {
+    color: #5d4037;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.category-card {
+    width: 300px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-card h2 {
+    color: #3e2723;
+}
+
+.category-card p {
+    color: #5d4037;
+    line-height: 1.6;
+}
+
+.category-card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #f6ecd8;
+    color: #3e2723;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.category-card a:hover {
+    background-color: #e8d8b8;
+}

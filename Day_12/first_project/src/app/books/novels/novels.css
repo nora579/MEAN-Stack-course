@@ -1,0 +1,49 @@
+.novels-page {
+    min-height: 100vh;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #faf7f0;
+}
+
+.novels-page h1 {
+    color: #3e2723;
+    margin-bottom: 15px;
+}
+
+.novels-page > p {
+    color: #5d4037;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.novels-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.novel-card {
+    width: 200px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.novel-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.novel-card h3 {
+    color: #3e2723;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.novel-card p {
+    color: #795548;
+}
